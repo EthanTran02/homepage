@@ -202,9 +202,35 @@ footer img {
   color: white;
 }
 
-
 /* break point for tablet */
 
-@media screen and (max-width: 1024) {
-  
+@media screen and (max-width: 1024px) {
+  .about-me-wrapper .about-me-img {
+    transform: scale(1);
+  }
+
+  .about-me-wrapper .about-me {
+    width: 60%;
+    padding: 32px;
+  }
+
+  .about-me-wrapper > p {
+    bottom: 85px;
+    left: 115px;
+  }
+
+  .contact-img {
+    width: 50%;
+    background-position: right;
+  }
+}
+
+/* mobile break point*/
+
+@media screen and (max-width: 767px) {
+  header,
+  main,
+  footer {
+    padding: 1.5rem 1rem;
+  }
 }
